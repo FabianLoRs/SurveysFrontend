@@ -1,1 +1,30 @@
 @import "~bootstrap/scss/bootstrap";
+
+// CUSTOM STYLES
+.answer-item {
+    .delete-answer {
+        opacity: 0;
+        visibility: hidden;
+        cursor: pointer;
+        font-size: 20px;
+        color: $blue;
+        transition: .5s opacity ease;
+    }
+    &:hover .delete-answer {
+        opacity: 1;
+        visibility: visible;
+        transition: .5s opacity ease;
+    }
+}
+
+.option-question-icon {
+    font-size: 22px;
+    margin: 0 5px;
+    color: $blue;
+    opacity: .6;
+    cursor: pointer;
+    transition: .5s opacity ease;
+    &:hover {
+        opacity: 1;
+    }
+}

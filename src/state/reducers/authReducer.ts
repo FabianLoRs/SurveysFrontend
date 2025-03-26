@@ -1,7 +1,8 @@
-import { User } from "../../types";
-import { authenticate, logout } from "../../utils/auth";
-import { AuthActions } from "./actions/authActions";
 import produce from "immer";
+import { User } from "../../types";
+import { AuthActions } from "../actions/authActions";
+import { authenticate, logout } from "../../utils/auth";
+
 
 export const authInitialState: User = authenticate();
 
