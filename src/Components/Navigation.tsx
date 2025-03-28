@@ -22,9 +22,7 @@ const Navigation = () => {
                 <Navbar.Brand as={Link} to="/">Encuesta</Navbar.Brand>
                 <Navbar.Toggle aria-controls="navbar"></Navbar.Toggle>
                 <Navbar.Collapse id="navbar">
-                    <Nav className="me-auto">
-                        <Nav.Link as={Link} to="/">Inicio</Nav.Link>
-                    </Nav>
+                    <Nav className="me-auto"></Nav>
                     <Nav className="justify-content-end">
                         { user.isAuthenticated ?
                         <>
@@ -36,7 +34,7 @@ const Navigation = () => {
                             </NavDropdown> 
                         </> :
                             <>
-                                <Nav.Link as={Link} to="/login">Inicio Sesión</Nav.Link>
+                                <Nav.Link as={Link} to="/">Inicio Sesión</Nav.Link>
                                 <Nav.Link as={Link} to="/register">Crear Cuenta</Nav.Link>
                             </>
                         }

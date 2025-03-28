@@ -34,3 +34,20 @@ export type Route = {
     component: any,
     routeType: RouteType
 };
+
+export type UserAnswer = {
+    questionId: number,
+    answer: number,
+    type: QuestionType
+}
+
+export type PollReplyDetail = {
+    questionId: number,
+    answerId: number,
+}
+
+export type PollReply = {
+    pollReplies: PollReplyDetail[],
+    user: string,
+    poll: number
+}

@@ -2,17 +2,13 @@ import CreatePoll from "../Pages/CreatePoll";
 import Home from "../Pages/Home";
 import Login from "../Pages/Login";
 import Register from "../Pages/Register";
+import ReplyPoll from "../Pages/ReplyPoll";
 import User from "../Pages/User";
 import { Route } from "../types";
 
 const routes: Route[] = [
     {
         path: "/",
-        component: Home,
-        routeType: "PUBLIC"
-    },
-    {
-        path: "/login",
         component: Login,
         routeType: "GUEST"
     },
@@ -30,6 +26,12 @@ const routes: Route[] = [
         path: "/createpoll",
         component: CreatePoll,
         routeType: "PRIVATE"
+    }
+    ,
+    {
+        path: "/replypoll/:id",
+        component: ReplyPoll,
+        routeType: "PUBLIC"
     }
 ];
 
