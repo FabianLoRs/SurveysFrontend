@@ -1,7 +1,6 @@
 import { FC } from "react";
 import { Form, FormControl } from "react-bootstrap";
 import { Question, UserAnswer } from "../../types";
-
 interface ReplyQuestionProps {
     question: Question,
     changeCallback: Function

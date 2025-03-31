@@ -11,7 +11,6 @@ import { createPollReply, getPollWithQuestions } from "../../Services/PollServic
 import { PollReplyDetail, Question, UserAnswer } from "../../types";
 import ReplyQuestion from './ReplyQuestion';
 
-
 interface PollProps {
     id: string
 }
@@ -27,6 +26,7 @@ const Poll:FC<PollProps> = ({ id }) => {
 
     useEffect(() => {
         fetchPoll();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     }, []);
 
     const fetchPoll = async () => { 
@@ -149,7 +149,7 @@ const Poll:FC<PollProps> = ({ id }) => {
                             <div>
                                 {renderQuestions()}
                             </div>
-                            <Button   onClick={prepareForm}>Responder Encuesta</Button>
+                            <Button onClick={prepareForm}>Responder Encuesta</Button>
                             {
                                 errors.allQuestionsAnswered && <Alert className="mt-4" variant="danger">
                                     {errors.allQuestionsAnswered}

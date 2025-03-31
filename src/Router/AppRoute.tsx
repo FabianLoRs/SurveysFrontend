@@ -1,7 +1,6 @@
 import { Route, Redirect, RouteProps, RouteComponentProps } from "react-router";
 import { RouteType } from "../types";
 import { useAuthState } from "../context/authContext";
-
 interface AppRouteProps extends RouteProps {
     component: any,
     routeType: RouteType
