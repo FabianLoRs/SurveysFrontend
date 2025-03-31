@@ -24,7 +24,7 @@ const User = () => {
     const [polls, setPolls] = useState<any>([]);
 
     useEffect(() => {
-      fetchPolls();
+        fetchPolls();
     // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [currentPage]);
     
@@ -55,7 +55,7 @@ const User = () => {
                         <p>¿Quieres eliminar esta encuesta?</p>
                         <Button variant="outline-primary" size="sm" className="me-2"
                             onClick={ async () => {
-                                 await deletePoll(pollId);
+                                await deletePoll(pollId);
                                 currentPage === 0 ? fetchPolls() : setCurrentPage(0);
                                 onClose();
                             }}
