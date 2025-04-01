@@ -5,7 +5,7 @@ import Col from "react-bootstrap/Col";
 import Table from "react-bootstrap/Table";
 import Toast from "react-bootstrap/Toast";
 import Button from "react-bootstrap/Button";
-import { Link } from "react-router-dom";
+import { Link, useHistory } from "react-router-dom";
 import ToastContainer from "react-bootstrap/ToastContainer";
 import { confirmAlert } from "react-confirm-alert";
 import ReactTooltip from "react-tooltip";
@@ -22,6 +22,8 @@ const User = () => {
     const [totalRecords, setTotalRecords] = useState(0);
     const [showToast, setShowToast] = useState(false);
     const [polls, setPolls] = useState<any>([]);
+
+    const history = useHistory();
 
     useEffect(() => {
         fetchPolls();
@@ -104,7 +106,9 @@ const User = () => {
                                             setShowToast(true);
                                         }}
                                     ><Share></Share></span>
-                                    <span data-tip="Ver resultados"><List></List></span>
+                                    <span data-tip="Ver resultados"
+                                        onClick={() => history.push(`/results/${poll.pollId}`)}
+                                    ><List></List></span>
                                     <span data-tip="Eliminar encuesta"
                                         onClick={() => handleDeletePoll(poll.pollId)}
                                     ><Trash></Trash></span>
