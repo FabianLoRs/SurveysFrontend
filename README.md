@@ -1,46 +1,50 @@
-# Getting Started with Create React App
+![Estadisticas](https://github.com/user-attachments/assets/04be0c41-00ef-4c67-b213-7b778c09f798)# Survey Creator
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A simple survey creation platform where users can sign up, log in, create surveys, share them, view responses, and delete them.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- User authentication (Sign up, Log in, Log out)
+- Create and customize surveys
+- Share surveys via unique links
+- View survey responses
+- Delete surveys
 
-### `npm start`
+## Demo
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### 1. User Authentication
+<!-- Add a GIF demonstrating user registration and login -->
+![Regiter](https://github.com/user-attachments/assets/78795bff-113d-4034-b3c1-81a47908ac24)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+![Login](https://github.com/user-attachments/assets/99270252-1c5e-4939-902f-cb108e040dc1)
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 2. Creating a Survey
+<!-- Add a GIF showing the process of creating a survey -->
+![Crear_Encueta](https://github.com/user-attachments/assets/c3ce8976-dfce-4d00-bdb1-800016ebbc75)
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 3. Sharing the Survey
+<!-- Add a GIF displaying how a user can share their survey -->
+![Compartir_Encueta](https://github.com/user-attachments/assets/cf399542-2ff4-4414-9bc8-64c7365aac4e)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### 4. Viewing Responses
+<!-- Add a GIF that demonstrates how users can view responses -->
+![Estadisticas](https://github.com/user-attachments/assets/2c6a4c73-7373-4803-ae5b-3173d417b49b)
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### 5. Deleting a Survey
+<!-- Add a GIF that shows the survey deletion process -->
+![Drag_Eliminar](https://github.com/user-attachments/assets/e0ccf609-7e00-4371-8b33-a2fe65290faf)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Technologies Used
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+- Backend: Java 11, Spring 2.5.5
+- Frontend: React 17.0.2, TypeScript
+- Database: MySQL
 
-## Learn More
+## Live Demo
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+You can try the app at: [Survey Creator](http://surveysfrontend.s3-website.us-east-2.amazonaws.com)
