@@ -107,7 +107,7 @@ const Results:FC<ResultProps> = (props) => {
                             />
                         </div>
                     </div>
-                    {renderResultsChart()};
+                    {renderResultsChart()}
                 </Col>
             </Row>
         </Container>

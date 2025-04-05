@@ -1,5 +1,6 @@
 import CreatePoll from "../Pages/CreatePoll";
 import Login from "../Pages/Login";
+import NotFound from "../Pages/NotFound";
 import Register from "../Pages/Register";
 import ReplyPoll from "../Pages/ReplyPoll";
 import Results from "../Pages/Results";
@@ -36,6 +37,11 @@ const routes: Route[] = [
         path: "/results/:id",
         component: Results,
         routeType: "PRIVATE"
+    },
+    {
+        path: "*",
+        component: NotFound,
+        routeType: "PUBLIC"
     }
 ];
 
