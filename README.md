@@ -42,8 +42,8 @@ A simple survey creation platform where users can sign up, log in, create survey
 ## Technologies Used
 
 - Backend: Java 11, Spring 2.5.5
-- Frontend: React 17.0.2, TypeScript
-- Database: MySQL
+- Frontend: React 17.0.2, TypeScript 5.9.0-dev.20250330
+- Database: MySQL 8.0.40
 
 ## Live Demo
 
