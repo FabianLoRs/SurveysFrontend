@@ -47,4 +47,4 @@ A simple survey creation platform where users can sign up, log in, create survey
 
 ## Live Demo
 
-You can try the app at: [Survey Creator]() In progress.
+You can try the app at: []() In progress.
