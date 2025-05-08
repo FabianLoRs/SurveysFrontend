@@ -3,7 +3,6 @@ import { User } from "../../types";
 import { AuthActions } from "../actions/authActions";
 import { authenticate, logout } from "../../utils/auth";
 
-
 export const authInitialState: User = authenticate();
 
 export const AuthReducer = produce((state: User, action: AuthActions): User => {

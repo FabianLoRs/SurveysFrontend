@@ -1,7 +1,8 @@
 import { USER_POLLS_PER_PAGE } from "./constants";
 
 // const API_URL = "http://localhost:8080";
-const API_URL = "http://app-spring-surveys-env.eba-gpenbhtd.us-east-2.elasticbeanstalk.com";
+//const API_URL = "http://app-spring-surveys-env.eba-gpenbhtd.us-east-2.elasticbeanstalk.com";
+const API_URL = "https://surveysbackend.onrender.com";
 
 export const REGISTER_ENDPOINT = API_URL + "/users";
 export const LOGIN_ENDPOINT = API_URL + "/users/login";
