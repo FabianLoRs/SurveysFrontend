@@ -35,12 +35,6 @@ A simple survey creation platform where users can sign up, log in, create survey
 ### 4. Viewing Stats
 ![Estadisticas](https://github.com/user-attachments/assets/04be0c41-00ef-4c67-b213-7b778c09f798)
 
-
-### 5. Viewing Responses
-<!-- Add a GIF that demonstrates how users can view responses -->
-![Stats](https://github.com/user-attachments/assets/2c6a4c73-7373-4803-ae5b-3173d417b49b) Render.com.
-
-
 ## Technologies Used
 
 - Backend: Java 11, Spring 2.5.5
