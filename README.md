@@ -50,4 +50,4 @@ A simple survey creation platform where users can sign up, log in, create survey
 
 ## Live Demo
 
-You can try the app at: [Survyes FrontEnd Link](https://surveysfrontend.onrender.com) In progress.
+You can try the app at: [Survyes FrontEnd Link](https://surveysfrontend.onrender.com)
