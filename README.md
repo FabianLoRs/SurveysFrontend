@@ -8,7 +8,6 @@ A simple survey creation platform where users can sign up, log in, create survey
 - Create and customize surveys
 - Share surveys via unique links
 - View survey responses
-- Delete surveys
 
 ## Demo
 
